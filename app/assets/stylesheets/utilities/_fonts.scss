@@ -1,3 +1,19 @@
+
+
+    @font-face{
+      font-family:"Futura Pro W05 Regular";
+      font-weight: 100;
+      src:url(font-path("Fonts/5114183/687d7d3d-9468-400c-9ec4-5b92c55c410f.woff2")) format("woff2"),url(font-path("Fonts/5114183/02aa7ba8-c9de-4b07-9e2a-fa05d09c9c07.woff")) format("woff");
+  }
+  @font-face{
+      font-family:"Futura Pro W05 Regular";
+      font-weight: 500;
+      src:url(font-path("Fonts/5119844/ac29e97b-4d85-4684-9513-0a5b887579e3.woff2")) format("woff2"),url(font-path("Fonts/5119844/fb2ecc9a-88be-4293-9a40-e4f4a124cadd.woff")) format("woff");
+  }
+
+
+
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Source Sans Pro';
