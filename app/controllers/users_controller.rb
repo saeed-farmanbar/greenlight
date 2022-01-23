@@ -85,7 +85,8 @@ class UsersController < ApplicationController
 
 #by saeed get user
   def get_data
-    return signin_path
+    users = User.all
+    render json: users
   end
 
   # POST /u/:user_uid/edit
