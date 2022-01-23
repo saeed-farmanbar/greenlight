@@ -85,7 +85,7 @@ class UsersController < ApplicationController
 
 #by saeed get user
   def get_data
-
+    return 444
 
   end
 
