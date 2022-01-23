@@ -85,8 +85,7 @@ class UsersController < ApplicationController
 
 #by saeed get user
   def get_data
-    users = User.all
-    render json: users
+    render json: current_user
   end
 
   # POST /u/:user_uid/edit
