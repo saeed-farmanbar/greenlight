@@ -27,7 +27,7 @@ class UsersController < ApplicationController
   before_action :find_user, only: [:edit,:get_data, :change_password, :delete_account, :update, :update_password]
   before_action :ensure_unauthenticated_except_twitter, only: [:create]
   before_action :check_user_signup_allowed, only: [:create]
-  before_action :check_admin_of, only: [:edit, :get_data,:change_password, :delete_account]
+  before_action :check_admin_of, only: [:edit, :change_password, :delete_account]
 
   # POST /u
   def create
@@ -85,8 +85,7 @@ class UsersController < ApplicationController
 
 #by saeed get user
   def get_data
-    return 444
-
+    return delete_account
   end
 
   # POST /u/:user_uid/edit
