@@ -85,7 +85,7 @@ class UsersController < ApplicationController
 
 #by saeed get user
   def get_data
-    return delete_account
+    return signin_path
   end
 
   # POST /u/:user_uid/edit

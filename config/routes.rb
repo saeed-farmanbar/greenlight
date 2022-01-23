@@ -26,7 +26,7 @@ Rails.application.routes.draw do
 
 
 
-  # get '/user-info-api', to: 'users#get_data', as: :getuserdata
+  get '/user-info-api', to: 'users#get_data', as: :getuserdata
 
 
   # Signin/Signup routes.
