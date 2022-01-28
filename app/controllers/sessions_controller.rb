@@ -103,7 +103,7 @@ class SessionsController < ApplicationController
   # POST /users/logout
   def destroy
     logout
-    redirect_to root_path
+    redirect_to "https://meet.mohit.art"
   end
 
   # GET/POST /auth/:provider/callback
