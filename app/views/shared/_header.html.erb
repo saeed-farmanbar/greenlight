@@ -83,6 +83,10 @@
               <% end %>
             </div>
           </div>
+          <a class="btn btn-outline-primary mx-2 sign-in-button"
+          href="https://mohit.art"  style="margin-bottom: 10px">mohit.art</a>
+
+
         <% elsif show_signin %>
           <% allow_greenlight_accounts = allow_greenlight_accounts? %>
           <% if allow_greenlight_accounts %>
@@ -96,10 +100,14 @@
           <% if allow_user_signup? && allow_greenlight_accounts %>
             <%= link_to t("signup.title"), signup_path, :class => "btn btn-outline-primary mx-2 sign-in-button" %>
           <% end %>
+
+          <a class="btn btn-outline-primary mx-2 sign-in-button"
+          href="https://mohit.art"  >mohit.art</a>
+
+
         <% end %>
 
-        <a class="btn btn-outline-primary mx-2 sign-in-button"
-        href="https://mohit.art"  style="margin-bottom: 10px">mohit.art</a>
+
 
       </div>
     </div>
